@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+
+     <meta charset="UTF-8">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="css/estilos-sesion.css" type="text/css">
+    <meta http-equiv="Cache-control" content="no-cache, mustrevalidate">
+    
+</head>
+
+<body>
+    <header class="cabecera">
+        
+        <div id="cabecera-logo">
+         
+            <div id="contenedor-logo"> 
+        <img src="imagenes/cuarzo.png" width="50%" height="50vh">  
+        </br>
+        <h1 id="cabecera-titulo"> Cuarzos</h1>
+        </div>
+
+        <div id="contenedor-logo2">
+        
+        <nav>
+            <ul class="lista">
+                
+                
+                
+                
+            </ul>
+        </nav>
+    </div>
+
+        </div>
+
+
+    </header>
+    <main class="contenedor-main">
+    <div class="formulario">
+
+        <form class="formulario-contenedor" action="./login.php" method="post">
+            <h1 id="titulo">Inicio de cuenta</h1>
+            <img id="sesion" src="Imagenes/iconoUsuario.png" width="20%" height="20vh">
+                <label id="textUsuario">Usuario:</label>
+                <br/>
+                <input type="text" name="nombre" autocomplete="off">
+            
+            <br/>
+
+            
+               <label>Contraseña:</label>
+               <br/>
+
+               <input type="password" name="contraseña">
+            </p>
+            <br/>
+
+            <button id="boton-ingresar" type="submit" onclick="location.href='conexion/login.php'"  value="ingresar">Ingresar</button>
+
+        </form>
+        <div id="boton-crear">
+            <button id="boton" onclick="location.href='registroUsuario.html'"  type="submit">Crear cuenta nueva</button>
+        </div>
+
+        
+
+    </div>
+
+
+    </main>
+
+
+</body>
+
+</html>
